@@ -87,4 +87,4 @@ app.get("/:id", function (request, response) {
   response.json(teachId);
 });
 
-app.listen(9000);
+app.listen(process.env.PORT || 3000);
